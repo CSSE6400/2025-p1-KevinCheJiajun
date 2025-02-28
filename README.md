@@ -1,13 +1,29 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18437512)
 # CSSE6400 Week 1 Practical
 
-Construction of a simple HTTP server in Python.
+# Name
 
-Please see the [instructions](https://csse6400.uqcloud.net/practicals/week01.pdf) for more details.
+Jiajun Che
+Student number: 46921112
 
-Update this README file with appropriate information about your project,
-including how to run it.
+# Time
+2025/02/28
+10:40 AM
 
-There are [resources](https://www.makeareadme.com) available to help you write a good README file.
+# Description
 
+a construction of a simple HTTP server in Python.
 
+# Installation
+
+>> sudo apt update // apt or dnf depending on distro 
+>> sudo apt install pipx // apt or dnf depending on distro 
+>> pipx ensurepath
+>> pipx install poetry
+>> poetry init
+>> poetry add flask
+
+install "REST Client" extension
+
+After these, run this command to start:
+>> poetry run flask --app todo run -p 6400
