@@ -16,14 +16,15 @@ a construction of a simple HTTP server in Python.
 
 # Installation
 
->> sudo apt update // apt or dnf depending on distro 
->> sudo apt install pipx // apt or dnf depending on distro 
->> pipx ensurepath
->> pipx install poetry
->> poetry init
->> poetry add flask
+Install these in command:
+sudo apt update // apt or dnf depending on distro 
+sudo apt install pipx // apt or dnf depending on distro 
+pipx ensurepath
+pipx install poetry
+poetry init
+poetry add flask
 
 install "REST Client" extension
 
 After these, run this command to start:
->> poetry run flask --app todo run -p 6400
+poetry run flask --app todo run -p 6400
